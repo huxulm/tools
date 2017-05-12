@@ -4,5 +4,3 @@ var config = module.exports = {
   accessKeySecret: process.env.ALI_OSS_ACCESS_KEY_SECRET || '',
   bucket: process.env.ALI_OSS_BUCKET || ''
 };
-
-console.log(JSON.stringify(config));
