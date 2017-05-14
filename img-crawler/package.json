@@ -1,0 +1,22 @@
+{
+  "name": "img-crawler",
+  "version": "1.0.0",
+  "description": "An Image Crawler implemented with Node.js. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "Crawler"
+  ],
+  "author": "jackdon",
+  "license": "MIT",
+  "dependencies": {
+    "ali-oss": "^4.8.0",
+    "bluebird": "^3.5.0",
+    "crawler-js": "^2.0.1",
+    "download": "^6.0.0",
+    "mongoose": "^4.9.8"
+  }
+}
