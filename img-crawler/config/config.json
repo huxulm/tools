@@ -1,0 +1,20 @@
+{
+
+  "ssl": true,
+  "site_domain": "apod.nasa.gov",
+  "site_home": "/apod/archivepix.html",
+
+  "interval": 50,
+
+  "mongo": {
+    "uri": "mongodb://localhost/image-crawler"
+  },
+
+  "parseHome": false,
+
+  "parseDetail": false,
+
+  "taskCorn": "* 0,30 * * *",
+
+  "downLoadDestination": "/Users/xulingming/Public/docs_private/space_imgs"
+}
