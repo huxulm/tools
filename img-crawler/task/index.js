@@ -174,7 +174,7 @@ var downloadJob = function () {
       console.log('任务队列创建成功, queue length:' + downloadJboQueue.length);
 
       // 20s once
-      var rs = scheduler.scheduleJob('0,30 * * * * *', function () {
+      var rs = scheduler.scheduleJob(config.downloadCorn, function () {
           console.log('开始调度');
           let task = downloadJboQueue.pop();
           if (task) {

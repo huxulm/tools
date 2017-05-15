@@ -22,5 +22,7 @@ module.exports = require('./config.json') || {
 
         taskCorn: '* 0,30 * * * *',
 
-        downLoadDestination: '/Users/xulingming/Public/docs_private/space_imgs'
+        downLoadDestination: '/Users/xulingming/Public/docs_private/space_imgs',
+
+        downloadCorn: '0,15,30,45 * * * * *'
 };
